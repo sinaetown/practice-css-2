@@ -1,0 +1,31 @@
+.container{
+    background: beige;
+    height: 100vh;
+    /*Properties used in FLEX ITEMS*/
+    display: flex; /*declare that it is a flexbox*/
+}
+
+.item{
+    width: 30px;
+    height: 50px;
+}
+
+.item1{
+    background: #f8bbd0;
+    flex-grow: 2; 
+    flex-shrink: 2;
+    flex-basis: auto;
+    align-self: center;
+}
+
+.item2{
+    background: #e1bee7;
+    flex-grow: 1; 
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
+.item3{
+    background: #bbdefb;
+    flex-basis: 80%;
+}

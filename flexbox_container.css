@@ -1,0 +1,61 @@
+.container{
+    background: beige;
+    height: 100vh;
+    /*Properties used in CONTAINERS*/
+    display: flex; /*declare that it is a flexbox*/
+    flex-direction: row; /*declare the main axis*/
+    flex-wrap: wrap; /*to wrap is to move the elements to another line*/
+    /*
+    flex-direction + flex-wrap = flex-flow
+    flex-flow: row wrap;
+    */
+
+    justify-content: space-between; /*space along the main axis*/
+    align-items: center; /*align along the cross axis*/
+    align-content: center; /*space along the cross axis*/
+}
+
+.item{
+    width: 80px;
+    height: 80px;
+}
+
+.item1{
+    background: #f8bbd0; 
+}
+
+.item2{
+    background: #e1bee7;
+}
+
+.item3{
+    background: #bbdefb;
+}
+
+.item4{
+    background: #c8e6c9;
+}
+
+.item5{
+    background: #fff9c4;
+}
+
+.item6{
+    background: #ffccbc;
+}
+
+.item7{
+    background: #d7ccc8;
+}
+
+.item8{
+    background: #ffe0b2;
+}
+
+.item9{
+    background: #c5cae9;
+}
+
+.item10{
+    background: #ffcdd2;
+}
